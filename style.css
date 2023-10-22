@@ -17,6 +17,7 @@
 body {
     background-color: #000000;
     color: white;
+    height: 100vh;
 }
 
 .header {
@@ -73,7 +74,7 @@ body {
 
 .swiper {
     width: 80vw;
-    height: 25rem;
+    height: 37rem;
 }
 
 .swiper-slide-text {
