@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+
+    --title-font: 'Dancing Script', cursive;
+    --paragraph-font: 'Indie Flower', cursive;
+}
+
+body {
+    background-color: #000000;
+    color: white;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 3rem;
+}
+
+.header__title {
+    font-size: 4rem;
+    font-family: var(--title-font);
+    margin-bottom: 1.8rem;
+}
+
+.header__subtitle {
+    font-size: 2rem;
+}
+
+.principal {
+    padding: 0.5rem 2rem;
+}
+
+.principal__text {
+    font-size: 1.8rem;
+
+    padding: 2rem;
+    margin-bottom: 5rem;
+
+    background-color: #484545d8;
+    border-radius: 1.6rem;
+}
+
+.principal__text__paragraph {
+    text-indent: 1.4rem;
+    line-height: 2rem;
+}
+
+.principal__text__paragraph + p {
+    margin-top: .8rem;
+}
+
+.images {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.images__title {
+    font-family: var(--title-font);
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.swiper {
+    width: 80vw;
+    height: 25rem;
+  }
