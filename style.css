@@ -42,7 +42,7 @@ body {
 }
 
 .principal__text {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 
     padding: 2rem;
     margin-bottom: 5rem;
@@ -53,7 +53,7 @@ body {
 
 .principal__text__paragraph {
     text-indent: 1.4rem;
-    line-height: 2rem;
+    line-height: 2.2rem;
 }
 
 .principal__text__paragraph + p {
@@ -74,4 +74,8 @@ body {
 .swiper {
     width: 80vw;
     height: 25rem;
-  }
+}
+
+.swiper-slide-text {
+    font-size: 1.6rem;
+}
