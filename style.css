@@ -58,6 +58,10 @@ body {
     line-height: 2.2rem;
 }
 
+.riscado {
+    text-decoration: line-through;
+}
+
 .principal__text__paragraph + p {
     margin-top: .8rem;
 }
